@@ -8,14 +8,14 @@ type ProfileProps = {
 export default function Profile({ name, bio }: ProfileProps) {
   return (
     <section className="flex flex-col items-center gap-3 text-center">
-      {/* 더미 프로필 사진(Wikimedia Commons, CC0): 실제 사진은 나중에 교체 */}
+      {/* 맑은 하늘 아래 임팩트 순간의 골퍼 사진: PattayaPatrol, Wikimedia Commons, CC BY-SA 4.0 */}
       <div className="relative h-32 w-32 overflow-hidden rounded-full shadow-md">
         <Image
-          src="/profile.jpg"
+          src="/profile-impact.jpg"
           alt={`${name} 프로필 사진`}
           fill
           sizes="128px"
-          className="object-cover object-[49%_50%]"
+          className="object-cover object-[31%_50%]"
           priority
         />
       </div>

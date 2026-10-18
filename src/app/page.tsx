@@ -1,16 +1,15 @@
 import LinkCard from "@/components/LinkCard";
 import Profile from "@/components/Profile";
 
-// 더미 데이터: 실제 내용은 나중에 교체
 const profile = {
-  name: "대황마",
-  bio: "최강바이브 코더",
+  name: "황프로",
+  bio: "풀스택 개발자 | 요즘 AI AX 에 대한 관심이 뿜뿜",
 };
 
 const links = [
-  { title: "GitHub", href: "https://github.com" },
-  { title: "LinkedIn", href: "https://www.linkedin.com" },
-  { title: "Blog", href: "https://example.com" },
+  { title: "🐙 GitHub", href: "https://github.com/Hwangsh33" },
+  { title: "📝 Blog", href: "https://naver.com" },
+  { title: "📧 Email", href: "mailto:h2south@gmail.com" },
 ];
 
 export default function Home() {
